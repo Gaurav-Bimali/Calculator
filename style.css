@@ -1,0 +1,68 @@
+body{
+    background-image: url(../images/car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'poppins';
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(158, 155, 155, 0.3);
+    backdrop-filter: blur(3px);
+    border: 2px solid white;
+}
+.disp{
+    text-align: right;
+    width: 248px;
+    color: white;
+    margin: 10px 0px;
+    padding: 20px 2px;
+    background: transparent;
+    font-size: 25px;
+    border: none;   
+}
+.disp::placeholder{
+    color:rgb(208, 204, 204);
+}
+button{
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 60px;
+    margin: 2px 0px;
+    font-size: 20px;
+    width: 60px;
+    cursor: pointer;
+}
+.equal{
+    width: 124px;
+    background-color: rgba(173, 169, 169, 0.5);
+}
+
+.fa-sun {
+    display: none;
+    color: white;
+}
+
+.moon-sun-button .fa-moon.active {
+    display: none;
+    color: white;
+}
+
+.moon-sun-button .fa-sun.active {
+    display: inline-block;
+}
+
+.calculator.dark-mode {
+    background-color: rgba(39, 35, 35, 0.5);
+}
+.calculator button.dark-mode {
+    color: white;
+}
+.calculator .equal.dark-mode {
+    background-color: rgba(7, 7, 7, 0.5);
+}
