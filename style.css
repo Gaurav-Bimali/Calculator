@@ -1,6 +1,6 @@
 body{
     background-image: url(car.jpg);
-    background-repeat: no-repeat;
+    background-repeat: inherit;
     background-size: cover;
     font-family: 'poppins';
 }
